@@ -1,4 +1,4 @@
 auth-service-dotnet
 ===================
 
-Node.js implementation of auth service for Rong Cloud.
+C# implementation of auth service for Rong Cloud.
