@@ -9,10 +9,7 @@ namespace  com.rongcloud.demo.auth
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(RongAuthClient.Instance.Auth("yourappkey", "youappSecret", "youruserid", "youusername", "youuserportrait"));
-            }
+            Console.WriteLine(RongAuthClient.Instance.Auth("yourappkey", "youappSecret", "youruserid", "youusername", "youuserportrait"));
             Console.Read();
         }
     }
